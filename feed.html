@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="container logo_box">
+                <div class="logo">
+                    <h2>Frontend Mentor <i class="fal fa-abacus"></i></h2>
+                    <h5>Feedback Board</h5>
+                </div>
+                <span id="slideMenu"><i  class="fas fa-xl fa-bars"></i></span>
+            </div>
+            <div id="navbar">
+                <div class="box">
+                    <button class="btn">All</button>
+                    <button class="btn">UI</button>
+                    <button class="btn">UX</button>
+                    <button class="btn">Enhancement</button>
+                    <button class="btn">Bug</button>
+                    <button class="btn">Feature</button>
+                </div>
+                <div class="box">
+                    <div class="head">
+                        <h5>Roadmap</h5>
+                        <a href="roadmap.html">View</a>
+                    </div>
+                    <div class="status_live">
+                        <div class="flex">
+                            <span class="dot orange"></span>
+                            <p>Planned</p>
+                        </div>
+                        <h5>2</h5>
+                    </div>
+                    <div class="status_live">
+                        <div class="flex">
+                            <span class="dot pink"></span>
+                            <p>In progress</p>
+                        </div>
+                        <h5>2</h5>
+                    </div>
+                    <div class="status_live">
+                        <div class="flex">
+                            <span class="dot blue"></span>
+                            <p>Live</p>
+                        </div>
+                        <h5>2</h5>
+                    </div>
+                </div>
+            </div>
+              
+        </header>
+          
+        <section>
+            <div class="nav_sort">
+                <div class="container">
+                    
+                    <div class="most_upvotes">
+                        <h3 class="suggetion_number"> <span>  <i class="fa-solid fa-lightbulb"></i>  </span>  6 Suggetions</h3>
+                        <div class="dropdown">
+                            <p>Sort by :  </p>
+                            <div class="select">
+                                <span class="selected">Most votes</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="menu">
+                                <li class="active menu_item">Most Upvotes</li>
+                                <li class="menu_item">Least Upvotes</li>
+                                <li class="menu_item">Most Comments</li>
+                                <li class="menu_item">Least Comments</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                   <a href="create_feed.html" class="btn">+ Add Feedback</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="empty_feed">
+                    <img src="img/spy.svg" alt="">
+                    <h5 class="title">There is not feedback yet</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, minima illo dolorem doloremque quisquam debitis. Magnam dolores explicabo sapiente ratione? Pariatur</p>
+                    <button class="empty_feed-btn">+ Add Feedback</button>
+                </div>
+               
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
